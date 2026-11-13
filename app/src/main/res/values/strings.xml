@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ================================================================================
+    DAFA ARDIANTO - 3420230004 - TEKNIK INFORMATIKA
+    Catatan Implementasi:
+    - Seluruh teks pada aplikasi (Judul, Subjudul, Label Input, Hint, Tombol,
+      Hasil, Footer, dan Pesan Validasi Error) dipanggil melalui file strings.xml ini.
+    - Menghindari Hardcoded String sesuai standar Best Practice Android.
+    ================================================================================
+-->
+<resources>
+    <!-- Identitas Aplikasi & Mahasiswa -->
+    <string name="app_name">Tugas6DafaArdianto</string>
+    <string name="student_name_nim">Dafa Ardianto • 3420230004</string>
+    <string name="student_prodi">Teknik Informatika</string>
+
+    <!-- Deskripsi Aksesibilitas Ikon -->
+    <string name="desc_logo">Logo Kalkulator BBM</string>
+    <string name="desc_icon_jarak">Icon Jarak</string>
+    <string name="desc_icon_konsumsi">Icon Konsumsi BBM</string>
+    <string name="desc_icon_harga">Icon Harga BBM</string>
+    <string name="desc_icon_hasil">Icon Hasil</string>
+
+    <!-- Header & Subjudul Utama -->
+    <string name="title_kalkulator">Kalkulator Estimasi Biaya BBM</string>
+    <string name="subtitle_kalkulator">Hitung kebutuhan bensin &amp; estimasi biaya perjalanan</string>
+
+    <!-- Label & Hint Form Input -->
+    <string name="label_jarak">Jarak Tempuh (km)</string>
+    <string name="hint_jarak">Contoh: 120</string>
+
+    <string name="label_konsumsi">Konsumsi BBM (km/liter)</string>
+    <string name="hint_konsumsi">Contoh: 40</string>
+
+    <string name="label_harga">Harga BBM per Liter (Rp)</string>
+    <string name="hint_harga">Contoh: 10000</string>
+
+    <!-- Tombol Eksekusi -->
+    <string name="btn_hitung">HITUNG ESTIMASI BIAYA</string>
+
+    <!-- Kartu Hasil Estimasi -->
+    <string name="header_hasil">Hasil Estimasi</string>
+    <string name="placeholder_hasil">Hasil estimasi akan muncul di sini setelah Anda menekan tombol hitung.</string>
+    <string name="format_hasil">Kebutuhan BBM: %.2f Liter\nEstimasi Biaya: %s</string>
+
+    <!-- Pesan Error Validasi & Toast -->
+    <string name="error_jarak_empty">Jarak tempuh wajib diisi</string>
+    <string name="error_konsumsi_empty">Konsumsi BBM wajib diisi</string>
+    <string name="error_harga_empty">Harga BBM wajib diisi</string>
+    <string name="error_konsumsi_zero">Konsumsi BBM harus lebih besar dari 0</string>
+    <string name="toast_sukses">Estimasi biaya BBM berhasil dihitung!</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ================================================================================
+    DAFA ARDIANTO - 3420230004 - TEKNIK INFORMATIKA
+    ================================================================================
+    COLOR STATE LIST: Wajah Garis Tepi Box Input (Fokus: Emas, Normal: Army)
+    ================================================================================
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:color="@color/army_accent_gold" />
+    <item android:color="@color/glass_input_stroke_light" />
+</selector>

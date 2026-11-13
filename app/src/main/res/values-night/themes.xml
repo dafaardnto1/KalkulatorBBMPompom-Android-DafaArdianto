@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        DAFA ARDIANTO - 3420230004 - TEKNIK INFORMATIKA
+        Tema Mode Gelap / Malam
+    -->
+    <style name="Base.Theme.Tugas6DafaArdianto" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/army_primary</item>
+        <item name="colorPrimaryVariant">@color/army_deep</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/app_bg_light_sage</item>
+    </style>
+
+    <style name="Theme.Tugas6DafaArdianto" parent="Base.Theme.Tugas6DafaArdianto" />
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ================================================================================
+    DAFA ARDIANTO - 3420230004 - TEKNIK INFORMATIKA
+    ================================================================================
+    1. Background Utama (#FFFFFF & #F4F7F2): Warna putih bersih sesuai permintaan.
+    2. Hijau Army Dominan (#1B2816 & #2E3E24): Dipakai pada teks, icon, border, dan tombol.
+    3. Light Glass Cards (#0D2E3E24 & #1A273C23): Efek kaca transparan lembut di atas background putih.
+    4. Accent Gold (#C79E1D / #D4AF37): Warna kontras mewah untuk sorotan fokus dan tombol.
+    ================================================================================
+-->
+<resources>
+    <!-- Warna Dasar System -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Palette Background Putih Clean -->
+    <color name="app_bg_white">#FFFFFF</color>
+    <color name="app_bg_light_sage">#F4F7F2</color>
+
+    <!-- Palette Hijau Army Utama -->
+    <color name="army_deep">#1B2816</color>
+    <color name="army_primary">#2E3E24</color>
+    <color name="army_medium">#3E5033</color>
+    <color name="army_sage">#5B6E4E</color>
+
+    <!-- Warna Aksesori & Sorotan (Gold Accent) -->
+    <color name="army_accent_gold">#C79E1D</color>
+    <color name="army_accent_gold_bright">#D4AF37</color>
+
+    <!-- Palette Glassmorphic untuk Background Putih -->
+    <color name="glass_card_bg_light">#0D2E3E24</color>
+    <color name="glass_card_stroke_light">#332E3E24</color>
+    <color name="glass_input_bg_light">#0A2E3E24</color>
+    <color name="glass_input_stroke_light">#402E3E24</color>
+    <color name="glass_input_stroke_focused">#C79E1D</color>
+
+    <!-- Warna Teks khusus Background Putih -->
+    <color name="glass_text_title_dark">#1B2816</color>
+    <color name="glass_text_subtitle_dark">#4A5C3D</color>
+    <color name="glass_text_hint_dark">#804A5C3D</color>
+
+    <!-- Kompatibilitas variabel warna lama -->
+    <color name="amber_primary">#C79E1D</color>
+    <color name="amber_dark">#1B2816</color>
+    <color name="slate_bg">#FFFFFF</color>
+    <color name="slate_card">#0D2E3E24</color>
+    <color name="slate_text">#1B2816</color>
+    <color name="slate_subtext">#4A5C3D</color>
+</resources>

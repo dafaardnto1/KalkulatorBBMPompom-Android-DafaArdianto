@@ -1,0 +1,157 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+        ============================================================================
+        DAFA ARDIANTO - 3420230004 - TEKNIK INFORMATIKA
+        ============================================================================
+        BERKAS TEMA & STYLES UTAMA (themes.xml)
+        ============================================================================
+        Catatan Implementasi:
+        - Seluruh gaya tampilan (cards, input box, tombol, teks, footer) didefinisikan
+          di dalam berkas themes.xml ini dalam bentuk <style> tanpa menggunakan
+          file background drawable eksternal.
+        - Komponen di activity_main.xml memanggil gaya ini menggunakan atribut:
+          style="@style/NamaStyle"
+        ============================================================================
+    -->
+
+    <!-- Tema Dasar Aplikasi -->
+    <style name="Base.Theme.Tugas6DafaArdianto" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Warna Utama Aplikasi (Army Green) -->
+        <item name="colorPrimary">@color/army_primary</item>
+        <item name="colorPrimaryVariant">@color/army_deep</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/app_bg_light_sage</item>
+    </style>
+
+    <style name="Theme.Tugas6DafaArdianto" parent="Base.Theme.Tugas6DafaArdianto" />
+
+    <!--
+        ============================================================================
+        STYLE: JUDUL UTAMA (HeaderTitleStyle)
+        ============================================================================
+        Gaya teks judul kalkulator ukuran 22sp bold warna army gelap.
+    -->
+    <style name="HeaderTitleStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/glass_text_title_dark</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: SUBJUDUL UTAMA (HeaderSubtitleStyle)
+        ============================================================================
+        Gaya teks instruksi ukuran 13sp warna army sage.
+    -->
+    <style name="HeaderSubtitleStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/glass_text_subtitle_dark</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: LABEL INPUT FORM (InputLabelStyle)
+        ============================================================================
+        Gaya teks label untuk setiap bidang input (Jarak, Konsumsi, Harga).
+    -->
+    <style name="InputLabelStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/glass_text_title_dark</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: KARTU GLASSMORPHISM FORM (GlassCardStyle)
+        ============================================================================
+        - Menggunakan MaterialCardView dengan warna latar transparan army (#0D2E3E24).
+        - Stroke garis tepi 1.5dp dan corner radius 24dp dikonfigurasi langsung dari style.
+    -->
+    <style name="GlassCardStyle" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/glass_card_bg_light</item>
+        <item name="strokeColor">@color/glass_card_stroke_light</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: KOTAK INPUT TEXT (GlassInputStyle)
+        ============================================================================
+        - Parent: OutlinedBox TextInputLayout.
+        - Memiliki background army soft, garis tepi otomatis berubah menyala emas saat fokus.
+    -->
+    <style name="GlassInputStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/glass_input_bg_light</item>
+        <item name="boxStrokeColor">@color/glass_input_stroke_selector</item>
+        <item name="boxStrokeWidth">1.2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="hintTextColor">@color/glass_text_hint_dark</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: TOMBOL HITUNG ESTIMASI (GlassButtonStyle)
+        ============================================================================
+        - Parent: Widget.Material3.Button.
+        - Menggunakan warna Army Primary (#2E3E24) dengan stroke emas (#C79E1D) 1.5dp.
+    -->
+    <style name="GlassButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/army_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/army_accent_gold</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: KARTU HASIL ESTIMASI (GlassResultCardStyle)
+        ============================================================================
+        Kartu transparan khusus untuk menampung hasil perhitungan estimasi biaya.
+    -->
+    <style name="GlassResultCardStyle" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/glass_card_bg_light</item>
+        <item name="strokeColor">@color/army_sage</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: FOOTER TEKS NAMA (FooterTitleStyle)
+        ============================================================================
+        Gaya teks nama dan NIM mahasiswa di bagian paling bawah.
+    -->
+    <style name="FooterTitleStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/glass_text_title_dark</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--
+        ============================================================================
+        STYLE: FOOTER TEKS PRODI (FooterSubtitleStyle)
+        ============================================================================
+        Gaya teks Program Studi (Teknik Informatika).
+    -->
+    <style name="FooterSubtitleStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/army_primary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
