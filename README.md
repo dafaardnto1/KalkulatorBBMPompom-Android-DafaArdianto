@@ -14,9 +14,9 @@
 
 ---
 
-### 👤 Identitas Mahasiswa
+### PROFILE SAYA
 - **Nama** : Dafa Ardianto
-- Teknik Informatika
+- Teknik Informatika (WEB DEVELOPER & ANDROID DEVELOPER)
 - **GitHub Profile** : [@dafaardnto1](https://github.com/dafaardnto1)
 - **Nama Repositori** : `KalkulatorBBMPompom-Android-DafaArdianto`
 
