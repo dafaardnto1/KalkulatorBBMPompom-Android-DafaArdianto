@@ -125,7 +125,7 @@ KalkulatorBBMPompom-Android-DafaArdianto/
 
 <div align="center">
 
-  **Dibuat dengan 💚 oleh [Dafa Ardianto](https://github.com/dafaardnto1)**  
-  *Teknik Informatika — 3420230004*
+  **Dibuat oleh [Dafa Ardianto](https://github.com/dafaardnto1)**  
+  *WEB DEVELOPER & ANDROID DEVELOPER*
 
 </div>
