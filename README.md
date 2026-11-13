@@ -2,7 +2,7 @@
 
   <img src="docs/images/pompomlogo.png" alt="Logo Pompom BBM" width="140"/>
 
-  # ⛽ Kalkulator Estimasi Biaya BBM (Pompom)
+  # Kalkulator Estimasi Biaya BBM (Pompom)
   ### **Aplikasi Mobile Native Android — Tugas 6 Praktikum Mobile Programming**
 
   [![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
@@ -16,8 +16,7 @@
 
 ### 👤 Identitas Mahasiswa
 - **Nama** : Dafa Ardianto
-- **NIM** : 3420230004
-- **Program Studi** : Teknik Informatika
+- Teknik Informatika
 - **GitHub Profile** : [@dafaardnto1](https://github.com/dafaardnto1)
 - **Nama Repositori** : `KalkulatorBBMPompom-Android-DafaArdianto`
 
